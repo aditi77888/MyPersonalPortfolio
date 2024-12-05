@@ -109,3 +109,10 @@ var typed = new Typed(".multiple-text", {
   ScrollReveal().reveal(".home-content h3, .home-content p, .about-content", {
     origin: "right",
   });
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const youtubeLink = document.getElementById('youtube-link');
+
+    youtubeLink.addEventListener('click', () => {
+        console.log('YouTube playlist link clicked!');
+    });
+});

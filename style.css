@@ -940,3 +940,14 @@ span {
 .certificate-card .certificate-link:hover {
   background: rgb(204, 241, 118);
 }
+.container { width: 50%; margin: 0 auto; padding: 20px; height: 30px;} 
+#my-assignment { background-color: #ffffff; border-radius: 8px; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); } 
+#my-assignment h2 { color: #333; margin-bottom: 10px; } 
+#my-assignment p { color: #666; margin-bottom: 20px; } 
+#youtube-link { 
+  display: inline-block; 
+  padding: 10px 15px; 
+  background-color: #ff0000; 
+  color: #ffffff; 
+  text-decoration: none; 
+  border-radius: 5px; }
